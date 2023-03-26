@@ -34,13 +34,13 @@ React Native로 만드는 메모 App
 ├── node_modules
 ├── package.json
 ├── src
-│   ├── @types
-│   ├── assets
-│   ├── components
-│   ├── contexts
-│   ├── libs
-│   └── pages
-├── tsconfig.json
+│   ├── @types          //type 지정 모음           
+│   ├── assets          //이미지 모음         
+│   ├── components      //공통(common) 컴포넌트 모음                      
+│   ├── contexts        //컨텍스트 모음                               
+│   ├── libs            //유틸(utils) 모음                  
+│   └── pages           //페이지 구성              
+├── tsconfig.json   //typescript 설정 파일
 ├── vendor
 │   └── bundle
 └── yarn.lock
