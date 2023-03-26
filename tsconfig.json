@@ -2,13 +2,13 @@
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
-    "module": "CommonJS",
+    "module": "ESNext",
     "lib": ["ESNext"],
-    "allowJs": true,
+    "allowJs": false,
     "jsx": "react-native",
     "strict": true,
-    "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
